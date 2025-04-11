@@ -1,0 +1,28 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+}
+
+.nav-bar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > #header-link-one, #header-link-two, #header-link-three {
+    margin-left: auto;
+    
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: row;
+}
